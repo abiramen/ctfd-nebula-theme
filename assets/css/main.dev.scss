@@ -1,23 +1,34 @@
-@import "~bootstrap/dist/css/bootstrap.css";
-@import "~highlight.js/styles/github.css";
-@import "includes/jumbotron.css";
-@import "includes/sticky-footer.css";
-@import "includes/award-icons.scss";
-@import "includes/flag-icons.scss";
-@import "includes/utils/opacity.scss";
-@import "includes/utils/min-height.scss";
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
+@import "includes/_github.scss";
+@import "includes/_jumbotron.scss";
+@import "includes/_sticky-footer.scss";
+@import "includes/_award-icons.scss";
+@import "includes/_flag-icons.scss";
+@import "includes/utils/_opacity.scss";
+@import "includes/utils/_min-height.scss";
+@import "includes/_colors.scss";
+
 
 html,
 body,
 .container {
   font-family: "Lato", "LatoOffline", sans-serif;
+  color: $fg;
+}
+
+body {
+  background: $russian-violet;
 }
 
 h1,
 h2 {
-  font-family: "Raleway", "RalewayOffline", sans-serif;
+  font-family: "Cascadia Code", "RalewayOffline", sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
+}
+
+.navbar {
+  background: $russian-accent !important;
 }
 
 a {
@@ -147,4 +158,18 @@ table > thead > tr > td {
   vertical-align: top;
   margin-left: -1.5em;
   font-size: 50%;
+}
+
+.jumbotron {
+  background-color: $russian-accent;
+  color: #fff;
+}
+
+.category-header h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.modal-content {
+  background-color: $space-cadet;
 }

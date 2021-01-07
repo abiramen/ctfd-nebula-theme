@@ -1,0 +1,23 @@
+{
+  "name": "nebula-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/css -o static/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiramen/nebula-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abiramen/nebula-theme/issues"
+  },
+  "homepage": "https://github.com/abiramen/nebula-theme#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

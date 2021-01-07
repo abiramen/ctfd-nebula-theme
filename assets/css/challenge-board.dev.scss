@@ -1,3 +1,5 @@
+@import "includes/_colors.scss";
+
 .chal-desc {
   padding-left: 30px;
   padding-right: 30px;
@@ -25,8 +27,21 @@
 }
 
 .challenge-button {
-  box-shadow: 3px 3px 3px grey;
+  border-radius: 5px;
+  background: transparent;
+  border: 2px solid $seaweed;
 }
+
+.challenge-button:hover {
+  background: transparent;
+  border: 2px solid $eminence;
+}
+
+.challenge-button:active {
+  background-color: $eminence !important;
+  border: 2px solid $eminence !important;
+}
+
 
 .solved-challenge {
   background-color: #37d63e !important;

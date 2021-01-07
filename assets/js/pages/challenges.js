@@ -301,7 +301,7 @@ function loadChals() {
             '<div class="category-header col-md-12 mb-3">' +
             "</div>" +
             '<div class="category-challenges col-md-12">' +
-            '<div class="challenges-row col-md-12"></div>' +
+            '<div class="challenges-row justify-content-center text-center col-md-12"></div>' +
             "</div>" +
             "</div>"
         );
