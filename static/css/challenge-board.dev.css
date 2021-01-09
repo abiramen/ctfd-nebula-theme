@@ -8,13 +8,27 @@
   height: auto; }
 
 .modal-content {
-  border-radius: 0px;
+  border: 4px solid #13224b !important;
+  border-radius: 20px !important;
   max-width: 1000px;
   padding: 1em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #0e0b29; }
 
-.btn-info {
-  background-color: #5b7290 !important; }
+.btn-info :not(.btn-file) {
+  background-color: #5b7290; }
+
+.btn-file {
+  background: transparent !important;
+  border-radius: 5px;
+  border: 2px solid #29dfff;
+  transition: border 0.15s; }
+
+.btn-file:hover {
+  border: 2px solid #6d2d8a; }
+
+.btn-file small, .btn-file .fas {
+  background: transparent !important; }
 
 .badge-info {
   background-color: #5b7290 !important; }
@@ -31,6 +45,12 @@
 .challenge-button:active {
   background-color: #6d2d8a !important;
   border: 2px solid #6d2d8a !important; }
+
+.challenge-button-name {
+  font-weight: bold; }
+
+.challenge-button-value {
+  font-weight: normal; }
 
 .solved-challenge {
   background-color: #37d63e !important;

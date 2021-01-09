@@ -5,6 +5,7 @@
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
+@import url("https://www.abiram.me/assets/fonts/fonts.css");
 .hljs {
   display: block;
   overflow-x: auto;
@@ -930,20 +931,20 @@ main {
 html,
 body,
 .container {
-  font-family: "Lato", "LatoOffline", sans-serif;
+  font-family: "Metropolis", "LatoOffline", sans-serif;
   color: #eee; }
 
 body {
-  background: #1d1748; }
+  background: #0e0b29; }
 
 h1,
 h2 {
-  font-family: "Cascadia Code", "RalewayOffline", sans-serif;
-  font-weight: 500;
+  font-family: "Metropolis", "RalewayOffline", sans-serif;
+  font-weight: 800;
   letter-spacing: 2px; }
 
 .navbar {
-  background: #331454 !important; }
+  background: #160b36 !important; }
 
 a {
   color: #337ab7;
@@ -1016,8 +1017,8 @@ table > thead > tr > td {
   padding: 8px 20px; }
 
 .btn-info {
-  background-color: #5b7290 !important;
-  border-color: #5b7290 !important; }
+  background-color: #5b7290;
+  border-color: #5b7290; }
 
 .badge-info {
   background-color: #5b7290 !important; }
@@ -1053,12 +1054,13 @@ table > thead > tr > td {
   font-size: 50%; }
 
 .jumbotron {
-  background-color: #331454;
+  background-color: #160b36;
   color: #fff; }
 
 .category-header h3 {
   text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-weight: 600; }
 
-.modal-content {
-  background-color: #13224b; }
+table {
+  color: white !important; }

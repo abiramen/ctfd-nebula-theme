@@ -336,8 +336,8 @@ function loadChals() {
         );
       }
 
-      const chalheader = $("<p>{0}</p>".format(chalinfo.name));
-      const chalscore = $("<span>{0}</span>".format(chalinfo.value));
+      const chalheader = $("<p class='challenge-button-name'>{0}</p>".format(chalinfo.name));
+      const chalscore = $("<span class='challenge-button-value'>{0}</span>".format(chalinfo.value));
       for (let j = 0; j < chalinfo.tags.length; j++) {
         const tag = "tag-" + chalinfo.tags[j].value.replace(/ /g, "-");
         chalwrap.addClass(tag);

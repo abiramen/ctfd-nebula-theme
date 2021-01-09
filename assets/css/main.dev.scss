@@ -7,12 +7,12 @@
 @import "includes/utils/_opacity.scss";
 @import "includes/utils/_min-height.scss";
 @import "includes/_colors.scss";
-
+@import url("https://www.abiram.me/assets/fonts/fonts.css");
 
 html,
 body,
 .container {
-  font-family: "Lato", "LatoOffline", sans-serif;
+  font-family: "Metropolis", "LatoOffline", sans-serif;
   color: $fg;
 }
 
@@ -22,8 +22,8 @@ body {
 
 h1,
 h2 {
-  font-family: "Cascadia Code", "RalewayOffline", sans-serif;
-  font-weight: 500;
+  font-family: "Metropolis", "RalewayOffline", sans-serif;
+  font-weight: 800;
   letter-spacing: 2px;
 }
 
@@ -114,8 +114,8 @@ table > thead > tr > td {
 }
 
 .btn-info {
-  background-color: #5b7290 !important;
-  border-color: #5b7290 !important;
+  background-color: #5b7290;
+  border-color: #5b7290;
 }
 
 .badge-info {
@@ -168,8 +168,9 @@ table > thead > tr > td {
 .category-header h3 {
   text-align: center;
   margin-bottom: 30px;
+  font-weight: 600;
 }
 
-.modal-content {
-  background-color: $space-cadet;
+table {
+  color: white !important;
 }
