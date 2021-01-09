@@ -25,19 +25,6 @@
 .badge-info {
   background-color: #5b7290 !important; }
 
-.challenge-button {
-  border-radius: 5px;
-  background: transparent;
-  border: 2px solid #29dfff; }
-
-.challenge-button:hover {
-  background: transparent;
-  border: 2px solid #6d2d8a; }
-
-.challenge-button:active {
-  background-color: #6d2d8a !important;
-  border: 2px solid #6d2d8a !important; }
-
 .challenge-button-name {
   font-weight: bold; }
 
@@ -61,3 +48,7 @@
 
 .key-submit .btn {
   height: 51px; }
+
+code {
+  color: #ff86de;
+  font-weight: bold; }

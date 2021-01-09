@@ -62,13 +62,6 @@ table > thead > tr > td {
   text-align: center;
 }
 
-.form-control:focus {
-  background-color: transparent;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
-  transition: background-color 0.3s, border-color 0.3s;
-}
-
 .input-filled-valid {
   background-color: transparent !important;
   border-color: $eminence;
@@ -83,13 +76,20 @@ table > thead > tr > td {
   transition: background-color 0.3s, border-color 0.3s;
 }
 
-.btn-primary {
-  background-color: $eminence;
-  border: none;
+.btn-primary, .challenge-button {
+  border-radius: 5px !important;
+  background: transparent;
+  border: 2px solid $seaweed;
 }
 
-.btn-primary:hover {
-  background-color: $russian-accent;
+.btn-primary:hover, .challenge-button:hover {
+  background: transparent;
+  border: 2px solid $eminence;
+}
+
+.btn-primary:active, .challenge-button:active {
+  background-color: $eminence !important;
+  border: 2px solid $eminence !important;
 }
 
 .btn-outlined.btn-theme {
@@ -195,6 +195,11 @@ table {
 
 a {
   color: $seaweed;
+  transition: color 0.15s;;
+}
+
+a:hover {
+  color: #3665c9;
 }
 
 .btn-outline-secondary {
@@ -220,3 +225,27 @@ a {
   color: $seaweed;
 }
 
+.form-control {
+  position: relative;
+  display: block;
+  padding: 0.8em !important;
+  border-radius: 5px;
+  background: #f0f0f0;
+  color: #ddd;
+  font-weight: 400;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-appearance: none;
+  /* Behavior changed in Bootstrap v4.1.3. See https://github.com/twbs/bootstrap/issues/27629 */
+  height: auto !important;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: $seaweed;
+  box-shadow: 0 0 0 0.1rem $seaweed;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+select.form-control {
+  height: auto !important;
+}

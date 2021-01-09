@@ -34,22 +34,6 @@
   background-color: #5b7290 !important;
 }
 
-.challenge-button {
-  border-radius: 5px;
-  background: transparent;
-  border: 2px solid $seaweed;
-}
-
-.challenge-button:hover {
-  background: transparent;
-  border: 2px solid $eminence;
-}
-
-.challenge-button:active {
-  background-color: $eminence !important;
-  border: 2px solid $eminence !important;
-}
-
 .challenge-button-name {
   font-weight: bold;
 }
@@ -57,7 +41,6 @@
 .challenge-button-value {
   font-weight: normal;
 }
-
 
 .solved-challenge {
   background-color: #37d63e;
@@ -79,4 +62,9 @@
 
 .key-submit .btn {
   height: 51px;
+}
+
+code {
+  color: #ff86de;
+  font-weight: bold;
 }

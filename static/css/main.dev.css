@@ -971,12 +971,6 @@ table > thead > tr > td {
   border-radius: 0;
   text-align: center; }
 
-.form-control:focus {
-  background-color: transparent;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
-  transition: background-color 0.3s, border-color 0.3s; }
-
 .input-filled-valid {
   background-color: transparent !important;
   border-color: #6d2d8a;
@@ -989,12 +983,18 @@ table > thead > tr > td {
   box-shadow: 0 0 0 0.1rem #d46767;
   transition: background-color 0.3s, border-color 0.3s; }
 
-.btn-primary {
-  background-color: #6d2d8a;
-  border: none; }
+.btn-primary, .challenge-button {
+  border-radius: 5px !important;
+  background: transparent;
+  border: 2px solid #29dfff; }
 
-.btn-primary:hover {
-  background-color: #160b36; }
+.btn-primary:hover, .challenge-button:hover {
+  background: transparent;
+  border: 2px solid #6d2d8a; }
+
+.btn-primary:active, .challenge-button:active {
+  background-color: #6d2d8a !important;
+  border: 2px solid #6d2d8a !important; }
 
 .btn-outlined.btn-theme {
   background: none;
@@ -1081,7 +1081,11 @@ table {
   background-color: #0e0b29; }
 
 a {
-  color: #29dfff; }
+  color: #29dfff;
+  transition: color 0.15s; }
+
+a:hover {
+  color: #3665c9; }
 
 .btn-outline-secondary {
   border-radius: 5px;
@@ -1101,3 +1105,25 @@ a {
 .close span {
   text-shadow: #13224b;
   color: #29dfff; }
+
+.form-control {
+  position: relative;
+  display: block;
+  padding: 0.8em !important;
+  border-radius: 5px;
+  background: #f0f0f0;
+  color: #ddd;
+  font-weight: 400;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-appearance: none;
+  /* Behavior changed in Bootstrap v4.1.3. See https://github.com/twbs/bootstrap/issues/27629 */
+  height: auto !important; }
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: #29dfff;
+  box-shadow: 0 0 0 0.1rem #29dfff;
+  transition: background-color 0.3s, border-color 0.3s; }
+
+select.form-control {
+  height: auto !important; }
