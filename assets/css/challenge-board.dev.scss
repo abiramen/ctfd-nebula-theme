@@ -36,6 +36,9 @@
 
 .challenge-button-name {
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .challenge-button-value {
