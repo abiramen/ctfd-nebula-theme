@@ -71,8 +71,8 @@ table > thead > tr > td {
 
 .input-filled-valid {
   background-color: transparent !important;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
+  border-color: $eminence;
+  box-shadow: 0 0 0 0.1rem $eminence;
   transition: background-color 0.3s, border-color 0.3s;
 }
 
@@ -81,6 +81,15 @@ table > thead > tr > td {
   border-color: #d46767;
   box-shadow: 0 0 0 0.1rem #d46767;
   transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary {
+  background-color: $eminence;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: $russian-accent;
 }
 
 .btn-outlined.btn-theme {
@@ -174,3 +183,40 @@ table > thead > tr > td {
 table {
   color: white !important;
 }
+
+.modal-content {
+  border: 4px solid $space-cadet !important;
+  border-radius: 20px !important;
+  max-width: 1000px;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: $russian-violet;
+}
+
+a {
+  color: $seaweed;
+}
+
+.btn-outline-secondary {
+  border-radius: 5px;
+  border: 2px solid $seaweed;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  background: transparent;
+  border: 2px solid $eminence;
+  color: white;
+}
+
+.btn-outline-secondary:active {
+  background: $eminence !important;
+  border: 2px solid $eminence !important;
+  color: white;
+}
+
+.close span {
+  text-shadow: $space-cadet;
+  color: $seaweed;
+}
+

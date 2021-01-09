@@ -7,14 +7,6 @@
   max-width: 100%;
   height: auto; }
 
-.modal-content {
-  border: 4px solid #13224b !important;
-  border-radius: 20px !important;
-  max-width: 1000px;
-  padding: 1em;
-  margin: 0 auto;
-  background-color: #0e0b29; }
-
 .btn-info :not(.btn-file) {
   background-color: #5b7290; }
 
@@ -53,9 +45,13 @@
   font-weight: normal; }
 
 .solved-challenge {
-  background-color: #37d63e !important;
+  background-color: #37d63e;
   opacity: 0.4;
   border: none; }
+
+.solved-challenge:hover {
+  background-color: #26a75c;
+  border: 0; }
 
 .corner-button-check {
   margin-top: -10px;
