@@ -231,7 +231,6 @@ a:hover {
   padding: 0.8em !important;
   border-radius: 5px;
   background: #f0f0f0;
-  color: #;
   font-weight: 400;
   font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-appearance: none;
@@ -243,6 +242,7 @@ a:hover {
   background-color: transparent;
   border-color: $seaweed;
   box-shadow: 0 0 0 0.1rem $seaweed;
+  color: #999;
   transition: background-color 0.3s, border-color 0.3s;
 }
 

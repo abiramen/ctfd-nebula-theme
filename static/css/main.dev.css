@@ -1,1 +1,1129 @@
-@charset "UTF-8";@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);@import url(https://www.abiram.me/assets/fonts/fonts.css);.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}main{padding-top:3.5rem}html{position:relative;min-height:100%}main{margin-bottom:100px}.footer{position:absolute;bottom:1px;width:100%;height:60px;line-height:60px;z-index:-20}.award-icon{font-family:"Font Awesome 5 Free","Font Awesome 5 Free Offline";font-weight:900;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.award-shield:before{content:"\f3ed"}.award-bug:before{content:"\f188"}.award-crown:before{content:"\f521"}.award-crosshairs:before{content:"\f05b"}.award-ban:before{content:"\f05e"}.award-lightning:before{content:"\f0e7"}.award-code:before{content:"\f121"}.award-cowboy:before{content:"\f8c0"}.award-angry:before{content:"\f556"}[class^=flag-]{font-style:normal}.flag-ad:before{content:"🇦🇩"}.flag-ae:before{content:"🇦🇪"}.flag-af:before{content:"🇦🇫"}.flag-ag:before{content:"🇦🇬"}.flag-ai:before{content:"🇦🇮"}.flag-al:before{content:"🇦🇱"}.flag-am:before{content:"🇦🇲"}.flag-ao:before{content:"🇦🇴"}.flag-aq:before{content:"🇦🇶"}.flag-ar:before{content:"🇦🇷"}.flag-as:before{content:"🇦🇸"}.flag-at:before{content:"🇦🇹"}.flag-au:before{content:"🇦🇺"}.flag-aw:before{content:"🇦🇼"}.flag-ax:before{content:"🇦🇽"}.flag-az:before{content:"🇦🇿"}.flag-ba:before{content:"🇧🇦"}.flag-bb:before{content:"🇧🇧"}.flag-bd:before{content:"🇧🇩"}.flag-be:before{content:"🇧🇪"}.flag-bf:before{content:"🇧🇫"}.flag-bg:before{content:"🇧🇬"}.flag-bh:before{content:"🇧🇭"}.flag-bi:before{content:"🇧🇮"}.flag-bj:before{content:"🇧🇯"}.flag-bl:before{content:"🇧🇱"}.flag-bm:before{content:"🇧🇲"}.flag-bn:before{content:"🇧🇳"}.flag-bo:before{content:"🇧🇴"}.flag-bq:before{content:"🇧🇶"}.flag-br:before{content:"🇧🇷"}.flag-bs:before{content:"🇧🇸"}.flag-bt:before{content:"🇧🇹"}.flag-bv:before{content:"🇧🇻"}.flag-bw:before{content:"🇧🇼"}.flag-by:before{content:"🇧🇾"}.flag-bz:before{content:"🇧🇿"}.flag-ca:before{content:"🇨🇦"}.flag-cc:before{content:"🇨🇨"}.flag-cd:before{content:"🇨🇩"}.flag-cf:before{content:"🇨🇫"}.flag-cg:before{content:"🇨🇬"}.flag-ch:before{content:"🇨🇭"}.flag-ci:before{content:"🇨🇮"}.flag-ck:before{content:"🇨🇰"}.flag-cl:before{content:"🇨🇱"}.flag-cm:before{content:"🇨🇲"}.flag-cn:before{content:"🇨🇳"}.flag-co:before{content:"🇨🇴"}.flag-cr:before{content:"🇨🇷"}.flag-cu:before{content:"🇨🇺"}.flag-cv:before{content:"🇨🇻"}.flag-cw:before{content:"🇨🇼"}.flag-cx:before{content:"🇨🇽"}.flag-cy:before{content:"🇨🇾"}.flag-cz:before{content:"🇨🇿"}.flag-de:before{content:"🇩🇪"}.flag-dj:before{content:"🇩🇯"}.flag-dk:before{content:"🇩🇰"}.flag-dm:before{content:"🇩🇲"}.flag-do:before{content:"🇩🇴"}.flag-dz:before{content:"🇩🇿"}.flag-ec:before{content:"🇪🇨"}.flag-ee:before{content:"🇪🇪"}.flag-eg:before{content:"🇪🇬"}.flag-eh:before{content:"🇪🇭"}.flag-er:before{content:"🇪🇷"}.flag-es:before{content:"🇪🇸"}.flag-et:before{content:"🇪🇹"}.flag-fi:before{content:"🇫🇮"}.flag-fj:before{content:"🇫🇯"}.flag-fk:before{content:"🇫🇰"}.flag-fm:before{content:"🇫🇲"}.flag-fo:before{content:"🇫🇴"}.flag-fr:before{content:"🇫🇷"}.flag-ga:before{content:"🇬🇦"}.flag-gb:before{content:"🇬🇧"}.flag-gd:before{content:"🇬🇩"}.flag-ge:before{content:"🇬🇪"}.flag-gf:before{content:"🇬🇫"}.flag-gg:before{content:"🇬🇬"}.flag-gh:before{content:"🇬🇭"}.flag-gi:before{content:"🇬🇮"}.flag-gl:before{content:"🇬🇱"}.flag-gm:before{content:"🇬🇲"}.flag-gn:before{content:"🇬🇳"}.flag-gp:before{content:"🇬🇵"}.flag-gq:before{content:"🇬🇶"}.flag-gr:before{content:"🇬🇷"}.flag-gs:before{content:"🇬🇸"}.flag-gt:before{content:"🇬🇹"}.flag-gu:before{content:"🇬🇺"}.flag-gw:before{content:"🇬🇼"}.flag-gy:before{content:"🇬🇾"}.flag-hk:before{content:"🇭🇰"}.flag-hm:before{content:"🇭🇲"}.flag-hn:before{content:"🇭🇳"}.flag-hr:before{content:"🇭🇷"}.flag-ht:before{content:"🇭🇹"}.flag-hu:before{content:"🇭🇺"}.flag-id:before{content:"🇮🇩"}.flag-ie:before{content:"🇮🇪"}.flag-il:before{content:"🇮🇱"}.flag-im:before{content:"🇮🇲"}.flag-in:before{content:"🇮🇳"}.flag-io:before{content:"🇮🇴"}.flag-iq:before{content:"🇮🇶"}.flag-ir:before{content:"🇮🇷"}.flag-is:before{content:"🇮🇸"}.flag-it:before{content:"🇮🇹"}.flag-je:before{content:"🇯🇪"}.flag-jm:before{content:"🇯🇲"}.flag-jo:before{content:"🇯🇴"}.flag-jp:before{content:"🇯🇵"}.flag-ke:before{content:"🇰🇪"}.flag-kg:before{content:"🇰🇬"}.flag-kh:before{content:"🇰🇭"}.flag-ki:before{content:"🇰🇮"}.flag-km:before{content:"🇰🇲"}.flag-kn:before{content:"🇰🇳"}.flag-kp:before{content:"🇰🇵"}.flag-kr:before{content:"🇰🇷"}.flag-kw:before{content:"🇰🇼"}.flag-ky:before{content:"🇰🇾"}.flag-kz:before{content:"🇰🇿"}.flag-la:before{content:"🇱🇦"}.flag-lb:before{content:"🇱🇧"}.flag-lc:before{content:"🇱🇨"}.flag-li:before{content:"🇱🇮"}.flag-lk:before{content:"🇱🇰"}.flag-lr:before{content:"🇱🇷"}.flag-ls:before{content:"🇱🇸"}.flag-lt:before{content:"🇱🇹"}.flag-lu:before{content:"🇱🇺"}.flag-lv:before{content:"🇱🇻"}.flag-ly:before{content:"🇱🇾"}.flag-ma:before{content:"🇲🇦"}.flag-mc:before{content:"🇲🇨"}.flag-md:before{content:"🇲🇩"}.flag-me:before{content:"🇲🇪"}.flag-mf:before{content:"🇲🇫"}.flag-mg:before{content:"🇲🇬"}.flag-mh:before{content:"🇲🇭"}.flag-mk:before{content:"🇲🇰"}.flag-ml:before{content:"🇲🇱"}.flag-mm:before{content:"🇲🇲"}.flag-mn:before{content:"🇲🇳"}.flag-mo:before{content:"🇲🇴"}.flag-mp:before{content:"🇲🇵"}.flag-mq:before{content:"🇲🇶"}.flag-mr:before{content:"🇲🇷"}.flag-ms:before{content:"🇲🇸"}.flag-mt:before{content:"🇲🇹"}.flag-mu:before{content:"🇲🇺"}.flag-mv:before{content:"🇲🇻"}.flag-mw:before{content:"🇲🇼"}.flag-mx:before{content:"🇲🇽"}.flag-my:before{content:"🇲🇾"}.flag-mz:before{content:"🇲🇿"}.flag-na:before{content:"🇳🇦"}.flag-nc:before{content:"🇳🇨"}.flag-ne:before{content:"🇳🇪"}.flag-nf:before{content:"🇳🇫"}.flag-ng:before{content:"🇳🇬"}.flag-ni:before{content:"🇳🇮"}.flag-nl:before{content:"🇳🇱"}.flag-no:before{content:"🇳🇴"}.flag-np:before{content:"🇳🇵"}.flag-nr:before{content:"🇳🇷"}.flag-nu:before{content:"🇳🇺"}.flag-nz:before{content:"🇳🇿"}.flag-om:before{content:"🇴🇲"}.flag-pa:before{content:"🇵🇦"}.flag-pe:before{content:"🇵🇪"}.flag-pf:before{content:"🇵🇫"}.flag-pg:before{content:"🇵🇬"}.flag-ph:before{content:"🇵🇭"}.flag-pk:before{content:"🇵🇰"}.flag-pl:before{content:"🇵🇱"}.flag-pm:before{content:"🇵🇲"}.flag-pn:before{content:"🇵🇳"}.flag-pr:before{content:"🇵🇷"}.flag-ps:before{content:"🇵🇸"}.flag-pt:before{content:"🇵🇹"}.flag-pw:before{content:"🇵🇼"}.flag-py:before{content:"🇵🇾"}.flag-qa:before{content:"🇶🇦"}.flag-re:before{content:"🇷🇪"}.flag-ro:before{content:"🇷🇴"}.flag-rs:before{content:"🇷🇸"}.flag-ru:before{content:"🇷🇺"}.flag-rw:before{content:"🇷🇼"}.flag-sa:before{content:"🇸🇦"}.flag-sb:before{content:"🇸🇧"}.flag-sc:before{content:"🇸🇨"}.flag-sd:before{content:"🇸🇩"}.flag-se:before{content:"🇸🇪"}.flag-sg:before{content:"🇸🇬"}.flag-sh:before{content:"🇸🇭"}.flag-si:before{content:"🇸🇮"}.flag-sj:before{content:"🇸🇯"}.flag-sk:before{content:"🇸🇰"}.flag-sl:before{content:"🇸🇱"}.flag-sm:before{content:"🇸🇲"}.flag-sn:before{content:"🇸🇳"}.flag-so:before{content:"🇸🇴"}.flag-sr:before{content:"🇸🇷"}.flag-ss:before{content:"🇸🇸"}.flag-st:before{content:"🇸🇹"}.flag-sv:before{content:"🇸🇻"}.flag-sx:before{content:"🇸🇽"}.flag-sy:before{content:"🇸🇾"}.flag-sz:before{content:"🇸🇿"}.flag-tc:before{content:"🇹🇨"}.flag-td:before{content:"🇹🇩"}.flag-tf:before{content:"🇹🇫"}.flag-tg:before{content:"🇹🇬"}.flag-th:before{content:"🇹🇭"}.flag-tj:before{content:"🇹🇯"}.flag-tk:before{content:"🇹🇰"}.flag-tl:before{content:"🇹🇱"}.flag-tm:before{content:"🇹🇲"}.flag-tn:before{content:"🇹🇳"}.flag-to:before{content:"🇹🇴"}.flag-tr:before{content:"🇹🇷"}.flag-tt:before{content:"🇹🇹"}.flag-tv:before{content:"🇹🇻"}.flag-tw:before{content:"🇹🇼"}.flag-tz:before{content:"🇹🇿"}.flag-ua:before{content:"🇺🇦"}.flag-ug:before{content:"🇺🇬"}.flag-um:before{content:"🇺🇲"}.flag-us:before{content:"🇺🇸"}.flag-uy:before{content:"🇺🇾"}.flag-uz:before{content:"🇺🇿"}.flag-va:before{content:"🇻🇦"}.flag-vc:before{content:"🇻🇨"}.flag-ve:before{content:"🇻🇪"}.flag-vg:before{content:"🇻🇬"}.flag-vi:before{content:"🇻🇮"}.flag-vn:before{content:"🇻🇳"}.flag-vu:before{content:"🇻🇺"}.flag-wf:before{content:"🇼🇫"}.flag-ws:before{content:"🇼🇸"}.flag-ye:before{content:"🇾🇪"}.flag-yt:before{content:"🇾🇹"}.flag-za:before{content:"🇿🇦"}.flag-zm:before{content:"🇿🇲"}.flag-zw:before{content:"🇿🇼"}.opacity-0{opacity:0!important}.opacity-25{opacity:.25!important}.opacity-50{opacity:.5!important}.opacity-75{opacity:.75!important}.opacity-100{opacity:1!important}.min-vh-0{min-height:0!important}.min-vh-25{min-height:25vh!important}.min-vh-50{min-height:50vh!important}.min-vh-75{min-height:75vh!important}.min-vh-100{min-height:100vh!important}.container,body,html{font-family:Metropolis,LatoOffline,sans-serif;color:#eee}body{background:#0e0b29}h1,h2{font-family:Metropolis,RalewayOffline,sans-serif;font-weight:800;letter-spacing:2px}.navbar{background:#160b36!important}a{color:#337ab7;text-decoration:none}table>thead>tr>td{border-top:none!important}.table thead th{white-space:nowrap}.fa-spin.spinner{text-align:center;opacity:.5}.spinner-error{padding-top:20vh;text-align:center;opacity:.5}.jumbotron{border-radius:0;text-align:center}.input-filled-valid{background-color:transparent!important;border-color:#6d2d8a;box-shadow:0 0 0 .1rem #6d2d8a;transition:background-color .3s,border-color .3s}.input-filled-invalid{background-color:transparent!important;border-color:#d46767;box-shadow:0 0 0 .1rem #d46767;transition:background-color .3s,border-color .3s}.btn-primary,.challenge-button{border-radius:5px!important;background:0 0;border:2px solid #29dfff}.btn-primary:hover,.challenge-button:hover{background:0 0;border:2px solid #6d2d8a}.btn-primary:active,.challenge-button:active{background-color:#6d2d8a!important;border:2px solid #6d2d8a!important}.btn-outlined.btn-theme{background:0 0;color:#545454;border-color:#545454;border:3px solid}.btn-outlined{border-radius:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}.btn{letter-spacing:1px;text-decoration:none;-moz-user-select:none;border-radius:0;cursor:pointer;display:inline-block;margin-bottom:0;vertical-align:middle;white-space:nowrap;font-size:14px;line-height:20px;font-weight:700;padding:8px 20px}.btn-info{background-color:#5b7290;border-color:#5b7290}.badge-info{background-color:#5b7290!important}.alert{border-radius:0!important;padding:.8em}.btn-fa{cursor:pointer}.close{cursor:pointer}.cursor-pointer{cursor:pointer}.cursor-help{cursor:help}.modal-content{-webkit-border-radius:0!important;-moz-border-radius:0!important;border-radius:0!important}.fa-disabled{opacity:.5;cursor:not-allowed}.badge-notification{vertical-align:top;margin-left:-1.5em;font-size:50%}.jumbotron{background-color:#160b36;color:#fff}.category-header h3{text-align:center;margin-bottom:30px;font-weight:600}table{color:#fff!important}.modal-content{border:4px solid #13224b!important;border-radius:20px!important;max-width:1000px;padding:1em;margin:0 auto;background-color:#0e0b29}a{color:#29dfff;transition:color .15s}a:hover{color:#3665c9}.btn-outline-secondary{border-radius:5px;border:2px solid #29dfff;color:#fff}.btn-outline-secondary:hover{background:0 0;border:2px solid #6d2d8a;color:#fff}.btn-outline-secondary:active{background:#6d2d8a!important;border:2px solid #6d2d8a!important;color:#fff}.close span{text-shadow:#13224b;color:#29dfff}.form-control{position:relative;display:block;padding:.8em!important;border-radius:5px;background:#f0f0f0;color:#ddd;font-weight:400;font-family:"Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-appearance:none;height:auto!important}.form-control:focus{background-color:transparent;border-color:#29dfff;box-shadow:0 0 0 .1rem #29dfff;transition:background-color .3s,border-color .3s}select.form-control{height:auto!important}
+@charset "UTF-8";
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css";
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+@import url("https://www.abiram.me/assets/fonts/fonts.css");
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8; }
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic; }
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold; }
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080; }
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14; }
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold; }
+
+.hljs-subst {
+  font-weight: normal; }
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold; }
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal; }
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926; }
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073; }
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3; }
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold; }
+
+.hljs-deletion {
+  background: #fdd; }
+
+.hljs-addition {
+  background: #dfd; }
+
+.hljs-emphasis {
+  font-style: italic; }
+
+.hljs-strong {
+  font-weight: bold; }
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+main {
+  padding-top: 3.5rem; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+main {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px; }
+
+.footer {
+  position: absolute;
+  /* prevent scrollbars from showing on pages that don't use the full page height */
+  bottom: 1px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  /* Vertically center the text there */
+  line-height: 60px;
+  /* Avoid covering things */
+  z-index: -20;
+  /*background-color: #f5f5f5;*/ }
+
+.award-icon {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Free Offline";
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1; }
+
+.award-shield:before {
+  content: "\f3ed"; }
+
+.award-bug:before {
+  content: "\f188"; }
+
+.award-crown:before {
+  content: "\f521"; }
+
+.award-crosshairs:before {
+  content: "\f05b"; }
+
+.award-ban:before {
+  content: "\f05e"; }
+
+.award-lightning:before {
+  content: "\f0e7"; }
+
+.award-code:before {
+  content: "\f121"; }
+
+.award-cowboy:before {
+  content: "\f8c0"; }
+
+.award-angry:before {
+  content: "\f556"; }
+
+[class^="flag-"] {
+  font-style: normal; }
+
+.flag-ad:before {
+  content: "🇦🇩"; }
+
+.flag-ae:before {
+  content: "🇦🇪"; }
+
+.flag-af:before {
+  content: "🇦🇫"; }
+
+.flag-ag:before {
+  content: "🇦🇬"; }
+
+.flag-ai:before {
+  content: "🇦🇮"; }
+
+.flag-al:before {
+  content: "🇦🇱"; }
+
+.flag-am:before {
+  content: "🇦🇲"; }
+
+.flag-ao:before {
+  content: "🇦🇴"; }
+
+.flag-aq:before {
+  content: "🇦🇶"; }
+
+.flag-ar:before {
+  content: "🇦🇷"; }
+
+.flag-as:before {
+  content: "🇦🇸"; }
+
+.flag-at:before {
+  content: "🇦🇹"; }
+
+.flag-au:before {
+  content: "🇦🇺"; }
+
+.flag-aw:before {
+  content: "🇦🇼"; }
+
+.flag-ax:before {
+  content: "🇦🇽"; }
+
+.flag-az:before {
+  content: "🇦🇿"; }
+
+.flag-ba:before {
+  content: "🇧🇦"; }
+
+.flag-bb:before {
+  content: "🇧🇧"; }
+
+.flag-bd:before {
+  content: "🇧🇩"; }
+
+.flag-be:before {
+  content: "🇧🇪"; }
+
+.flag-bf:before {
+  content: "🇧🇫"; }
+
+.flag-bg:before {
+  content: "🇧🇬"; }
+
+.flag-bh:before {
+  content: "🇧🇭"; }
+
+.flag-bi:before {
+  content: "🇧🇮"; }
+
+.flag-bj:before {
+  content: "🇧🇯"; }
+
+.flag-bl:before {
+  content: "🇧🇱"; }
+
+.flag-bm:before {
+  content: "🇧🇲"; }
+
+.flag-bn:before {
+  content: "🇧🇳"; }
+
+.flag-bo:before {
+  content: "🇧🇴"; }
+
+.flag-bq:before {
+  content: "🇧🇶"; }
+
+.flag-br:before {
+  content: "🇧🇷"; }
+
+.flag-bs:before {
+  content: "🇧🇸"; }
+
+.flag-bt:before {
+  content: "🇧🇹"; }
+
+.flag-bv:before {
+  content: "🇧🇻"; }
+
+.flag-bw:before {
+  content: "🇧🇼"; }
+
+.flag-by:before {
+  content: "🇧🇾"; }
+
+.flag-bz:before {
+  content: "🇧🇿"; }
+
+.flag-ca:before {
+  content: "🇨🇦"; }
+
+.flag-cc:before {
+  content: "🇨🇨"; }
+
+.flag-cd:before {
+  content: "🇨🇩"; }
+
+.flag-cf:before {
+  content: "🇨🇫"; }
+
+.flag-cg:before {
+  content: "🇨🇬"; }
+
+.flag-ch:before {
+  content: "🇨🇭"; }
+
+.flag-ci:before {
+  content: "🇨🇮"; }
+
+.flag-ck:before {
+  content: "🇨🇰"; }
+
+.flag-cl:before {
+  content: "🇨🇱"; }
+
+.flag-cm:before {
+  content: "🇨🇲"; }
+
+.flag-cn:before {
+  content: "🇨🇳"; }
+
+.flag-co:before {
+  content: "🇨🇴"; }
+
+.flag-cr:before {
+  content: "🇨🇷"; }
+
+.flag-cu:before {
+  content: "🇨🇺"; }
+
+.flag-cv:before {
+  content: "🇨🇻"; }
+
+.flag-cw:before {
+  content: "🇨🇼"; }
+
+.flag-cx:before {
+  content: "🇨🇽"; }
+
+.flag-cy:before {
+  content: "🇨🇾"; }
+
+.flag-cz:before {
+  content: "🇨🇿"; }
+
+.flag-de:before {
+  content: "🇩🇪"; }
+
+.flag-dj:before {
+  content: "🇩🇯"; }
+
+.flag-dk:before {
+  content: "🇩🇰"; }
+
+.flag-dm:before {
+  content: "🇩🇲"; }
+
+.flag-do:before {
+  content: "🇩🇴"; }
+
+.flag-dz:before {
+  content: "🇩🇿"; }
+
+.flag-ec:before {
+  content: "🇪🇨"; }
+
+.flag-ee:before {
+  content: "🇪🇪"; }
+
+.flag-eg:before {
+  content: "🇪🇬"; }
+
+.flag-eh:before {
+  content: "🇪🇭"; }
+
+.flag-er:before {
+  content: "🇪🇷"; }
+
+.flag-es:before {
+  content: "🇪🇸"; }
+
+.flag-et:before {
+  content: "🇪🇹"; }
+
+.flag-fi:before {
+  content: "🇫🇮"; }
+
+.flag-fj:before {
+  content: "🇫🇯"; }
+
+.flag-fk:before {
+  content: "🇫🇰"; }
+
+.flag-fm:before {
+  content: "🇫🇲"; }
+
+.flag-fo:before {
+  content: "🇫🇴"; }
+
+.flag-fr:before {
+  content: "🇫🇷"; }
+
+.flag-ga:before {
+  content: "🇬🇦"; }
+
+.flag-gb:before {
+  content: "🇬🇧"; }
+
+.flag-gd:before {
+  content: "🇬🇩"; }
+
+.flag-ge:before {
+  content: "🇬🇪"; }
+
+.flag-gf:before {
+  content: "🇬🇫"; }
+
+.flag-gg:before {
+  content: "🇬🇬"; }
+
+.flag-gh:before {
+  content: "🇬🇭"; }
+
+.flag-gi:before {
+  content: "🇬🇮"; }
+
+.flag-gl:before {
+  content: "🇬🇱"; }
+
+.flag-gm:before {
+  content: "🇬🇲"; }
+
+.flag-gn:before {
+  content: "🇬🇳"; }
+
+.flag-gp:before {
+  content: "🇬🇵"; }
+
+.flag-gq:before {
+  content: "🇬🇶"; }
+
+.flag-gr:before {
+  content: "🇬🇷"; }
+
+.flag-gs:before {
+  content: "🇬🇸"; }
+
+.flag-gt:before {
+  content: "🇬🇹"; }
+
+.flag-gu:before {
+  content: "🇬🇺"; }
+
+.flag-gw:before {
+  content: "🇬🇼"; }
+
+.flag-gy:before {
+  content: "🇬🇾"; }
+
+.flag-hk:before {
+  content: "🇭🇰"; }
+
+.flag-hm:before {
+  content: "🇭🇲"; }
+
+.flag-hn:before {
+  content: "🇭🇳"; }
+
+.flag-hr:before {
+  content: "🇭🇷"; }
+
+.flag-ht:before {
+  content: "🇭🇹"; }
+
+.flag-hu:before {
+  content: "🇭🇺"; }
+
+.flag-id:before {
+  content: "🇮🇩"; }
+
+.flag-ie:before {
+  content: "🇮🇪"; }
+
+.flag-il:before {
+  content: "🇮🇱"; }
+
+.flag-im:before {
+  content: "🇮🇲"; }
+
+.flag-in:before {
+  content: "🇮🇳"; }
+
+.flag-io:before {
+  content: "🇮🇴"; }
+
+.flag-iq:before {
+  content: "🇮🇶"; }
+
+.flag-ir:before {
+  content: "🇮🇷"; }
+
+.flag-is:before {
+  content: "🇮🇸"; }
+
+.flag-it:before {
+  content: "🇮🇹"; }
+
+.flag-je:before {
+  content: "🇯🇪"; }
+
+.flag-jm:before {
+  content: "🇯🇲"; }
+
+.flag-jo:before {
+  content: "🇯🇴"; }
+
+.flag-jp:before {
+  content: "🇯🇵"; }
+
+.flag-ke:before {
+  content: "🇰🇪"; }
+
+.flag-kg:before {
+  content: "🇰🇬"; }
+
+.flag-kh:before {
+  content: "🇰🇭"; }
+
+.flag-ki:before {
+  content: "🇰🇮"; }
+
+.flag-km:before {
+  content: "🇰🇲"; }
+
+.flag-kn:before {
+  content: "🇰🇳"; }
+
+.flag-kp:before {
+  content: "🇰🇵"; }
+
+.flag-kr:before {
+  content: "🇰🇷"; }
+
+.flag-kw:before {
+  content: "🇰🇼"; }
+
+.flag-ky:before {
+  content: "🇰🇾"; }
+
+.flag-kz:before {
+  content: "🇰🇿"; }
+
+.flag-la:before {
+  content: "🇱🇦"; }
+
+.flag-lb:before {
+  content: "🇱🇧"; }
+
+.flag-lc:before {
+  content: "🇱🇨"; }
+
+.flag-li:before {
+  content: "🇱🇮"; }
+
+.flag-lk:before {
+  content: "🇱🇰"; }
+
+.flag-lr:before {
+  content: "🇱🇷"; }
+
+.flag-ls:before {
+  content: "🇱🇸"; }
+
+.flag-lt:before {
+  content: "🇱🇹"; }
+
+.flag-lu:before {
+  content: "🇱🇺"; }
+
+.flag-lv:before {
+  content: "🇱🇻"; }
+
+.flag-ly:before {
+  content: "🇱🇾"; }
+
+.flag-ma:before {
+  content: "🇲🇦"; }
+
+.flag-mc:before {
+  content: "🇲🇨"; }
+
+.flag-md:before {
+  content: "🇲🇩"; }
+
+.flag-me:before {
+  content: "🇲🇪"; }
+
+.flag-mf:before {
+  content: "🇲🇫"; }
+
+.flag-mg:before {
+  content: "🇲🇬"; }
+
+.flag-mh:before {
+  content: "🇲🇭"; }
+
+.flag-mk:before {
+  content: "🇲🇰"; }
+
+.flag-ml:before {
+  content: "🇲🇱"; }
+
+.flag-mm:before {
+  content: "🇲🇲"; }
+
+.flag-mn:before {
+  content: "🇲🇳"; }
+
+.flag-mo:before {
+  content: "🇲🇴"; }
+
+.flag-mp:before {
+  content: "🇲🇵"; }
+
+.flag-mq:before {
+  content: "🇲🇶"; }
+
+.flag-mr:before {
+  content: "🇲🇷"; }
+
+.flag-ms:before {
+  content: "🇲🇸"; }
+
+.flag-mt:before {
+  content: "🇲🇹"; }
+
+.flag-mu:before {
+  content: "🇲🇺"; }
+
+.flag-mv:before {
+  content: "🇲🇻"; }
+
+.flag-mw:before {
+  content: "🇲🇼"; }
+
+.flag-mx:before {
+  content: "🇲🇽"; }
+
+.flag-my:before {
+  content: "🇲🇾"; }
+
+.flag-mz:before {
+  content: "🇲🇿"; }
+
+.flag-na:before {
+  content: "🇳🇦"; }
+
+.flag-nc:before {
+  content: "🇳🇨"; }
+
+.flag-ne:before {
+  content: "🇳🇪"; }
+
+.flag-nf:before {
+  content: "🇳🇫"; }
+
+.flag-ng:before {
+  content: "🇳🇬"; }
+
+.flag-ni:before {
+  content: "🇳🇮"; }
+
+.flag-nl:before {
+  content: "🇳🇱"; }
+
+.flag-no:before {
+  content: "🇳🇴"; }
+
+.flag-np:before {
+  content: "🇳🇵"; }
+
+.flag-nr:before {
+  content: "🇳🇷"; }
+
+.flag-nu:before {
+  content: "🇳🇺"; }
+
+.flag-nz:before {
+  content: "🇳🇿"; }
+
+.flag-om:before {
+  content: "🇴🇲"; }
+
+.flag-pa:before {
+  content: "🇵🇦"; }
+
+.flag-pe:before {
+  content: "🇵🇪"; }
+
+.flag-pf:before {
+  content: "🇵🇫"; }
+
+.flag-pg:before {
+  content: "🇵🇬"; }
+
+.flag-ph:before {
+  content: "🇵🇭"; }
+
+.flag-pk:before {
+  content: "🇵🇰"; }
+
+.flag-pl:before {
+  content: "🇵🇱"; }
+
+.flag-pm:before {
+  content: "🇵🇲"; }
+
+.flag-pn:before {
+  content: "🇵🇳"; }
+
+.flag-pr:before {
+  content: "🇵🇷"; }
+
+.flag-ps:before {
+  content: "🇵🇸"; }
+
+.flag-pt:before {
+  content: "🇵🇹"; }
+
+.flag-pw:before {
+  content: "🇵🇼"; }
+
+.flag-py:before {
+  content: "🇵🇾"; }
+
+.flag-qa:before {
+  content: "🇶🇦"; }
+
+.flag-re:before {
+  content: "🇷🇪"; }
+
+.flag-ro:before {
+  content: "🇷🇴"; }
+
+.flag-rs:before {
+  content: "🇷🇸"; }
+
+.flag-ru:before {
+  content: "🇷🇺"; }
+
+.flag-rw:before {
+  content: "🇷🇼"; }
+
+.flag-sa:before {
+  content: "🇸🇦"; }
+
+.flag-sb:before {
+  content: "🇸🇧"; }
+
+.flag-sc:before {
+  content: "🇸🇨"; }
+
+.flag-sd:before {
+  content: "🇸🇩"; }
+
+.flag-se:before {
+  content: "🇸🇪"; }
+
+.flag-sg:before {
+  content: "🇸🇬"; }
+
+.flag-sh:before {
+  content: "🇸🇭"; }
+
+.flag-si:before {
+  content: "🇸🇮"; }
+
+.flag-sj:before {
+  content: "🇸🇯"; }
+
+.flag-sk:before {
+  content: "🇸🇰"; }
+
+.flag-sl:before {
+  content: "🇸🇱"; }
+
+.flag-sm:before {
+  content: "🇸🇲"; }
+
+.flag-sn:before {
+  content: "🇸🇳"; }
+
+.flag-so:before {
+  content: "🇸🇴"; }
+
+.flag-sr:before {
+  content: "🇸🇷"; }
+
+.flag-ss:before {
+  content: "🇸🇸"; }
+
+.flag-st:before {
+  content: "🇸🇹"; }
+
+.flag-sv:before {
+  content: "🇸🇻"; }
+
+.flag-sx:before {
+  content: "🇸🇽"; }
+
+.flag-sy:before {
+  content: "🇸🇾"; }
+
+.flag-sz:before {
+  content: "🇸🇿"; }
+
+.flag-tc:before {
+  content: "🇹🇨"; }
+
+.flag-td:before {
+  content: "🇹🇩"; }
+
+.flag-tf:before {
+  content: "🇹🇫"; }
+
+.flag-tg:before {
+  content: "🇹🇬"; }
+
+.flag-th:before {
+  content: "🇹🇭"; }
+
+.flag-tj:before {
+  content: "🇹🇯"; }
+
+.flag-tk:before {
+  content: "🇹🇰"; }
+
+.flag-tl:before {
+  content: "🇹🇱"; }
+
+.flag-tm:before {
+  content: "🇹🇲"; }
+
+.flag-tn:before {
+  content: "🇹🇳"; }
+
+.flag-to:before {
+  content: "🇹🇴"; }
+
+.flag-tr:before {
+  content: "🇹🇷"; }
+
+.flag-tt:before {
+  content: "🇹🇹"; }
+
+.flag-tv:before {
+  content: "🇹🇻"; }
+
+.flag-tw:before {
+  content: "🇹🇼"; }
+
+.flag-tz:before {
+  content: "🇹🇿"; }
+
+.flag-ua:before {
+  content: "🇺🇦"; }
+
+.flag-ug:before {
+  content: "🇺🇬"; }
+
+.flag-um:before {
+  content: "🇺🇲"; }
+
+.flag-us:before {
+  content: "🇺🇸"; }
+
+.flag-uy:before {
+  content: "🇺🇾"; }
+
+.flag-uz:before {
+  content: "🇺🇿"; }
+
+.flag-va:before {
+  content: "🇻🇦"; }
+
+.flag-vc:before {
+  content: "🇻🇨"; }
+
+.flag-ve:before {
+  content: "🇻🇪"; }
+
+.flag-vg:before {
+  content: "🇻🇬"; }
+
+.flag-vi:before {
+  content: "🇻🇮"; }
+
+.flag-vn:before {
+  content: "🇻🇳"; }
+
+.flag-vu:before {
+  content: "🇻🇺"; }
+
+.flag-wf:before {
+  content: "🇼🇫"; }
+
+.flag-ws:before {
+  content: "🇼🇸"; }
+
+.flag-ye:before {
+  content: "🇾🇪"; }
+
+.flag-yt:before {
+  content: "🇾🇹"; }
+
+.flag-za:before {
+  content: "🇿🇦"; }
+
+.flag-zm:before {
+  content: "🇿🇲"; }
+
+.flag-zw:before {
+  content: "🇿🇼"; }
+
+.opacity-0 {
+  opacity: 0 !important; }
+
+.opacity-25 {
+  opacity: 0.25 !important; }
+
+.opacity-50 {
+  opacity: 0.5 !important; }
+
+.opacity-75 {
+  opacity: 0.75 !important; }
+
+.opacity-100 {
+  opacity: 1 !important; }
+
+.min-vh-0 {
+  min-height: 0vh !important; }
+
+.min-vh-25 {
+  min-height: 25vh !important; }
+
+.min-vh-50 {
+  min-height: 50vh !important; }
+
+.min-vh-75 {
+  min-height: 75vh !important; }
+
+.min-vh-100 {
+  min-height: 100vh !important; }
+
+html,
+body,
+.container {
+  font-family: "Metropolis", "LatoOffline", sans-serif;
+  color: #eee; }
+
+body {
+  background: #0e0b29; }
+
+h1,
+h2 {
+  font-family: "Metropolis", "RalewayOffline", sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px; }
+
+.navbar {
+  background: #160b36 !important; }
+
+a {
+  color: #337ab7;
+  text-decoration: none; }
+
+table > thead > tr > td {
+  /* Remove border line from thead of all tables */
+  /* It can overlap with other element styles */
+  border-top: none !important; }
+
+.table thead th {
+  white-space: nowrap; }
+
+.fa-spin.spinner {
+  text-align: center;
+  opacity: 0.5; }
+
+.spinner-error {
+  padding-top: 20vh;
+  text-align: center;
+  opacity: 0.5; }
+
+.jumbotron {
+  border-radius: 0;
+  text-align: center; }
+
+.input-filled-valid {
+  background-color: transparent !important;
+  border-color: #6d2d8a;
+  box-shadow: 0 0 0 0.1rem #6d2d8a;
+  transition: background-color 0.3s, border-color 0.3s; }
+
+.input-filled-invalid {
+  background-color: transparent !important;
+  border-color: #d46767;
+  box-shadow: 0 0 0 0.1rem #d46767;
+  transition: background-color 0.3s, border-color 0.3s; }
+
+.btn-primary, .challenge-button {
+  border-radius: 5px !important;
+  background: transparent;
+  border: 2px solid #29dfff; }
+
+.btn-primary:hover, .challenge-button:hover {
+  background: transparent;
+  border: 2px solid #6d2d8a; }
+
+.btn-primary:active, .challenge-button:active {
+  background-color: #6d2d8a !important;
+  border: 2px solid #6d2d8a !important; }
+
+.btn-outlined.btn-theme {
+  background: none;
+  color: #545454;
+  border-color: #545454;
+  border: 3px solid; }
+
+.btn-outlined {
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btn {
+  letter-spacing: 1px;
+  text-decoration: none;
+  -moz-user-select: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 8px 20px; }
+
+.btn-info {
+  background-color: #5b7290;
+  border-color: #5b7290; }
+
+.badge-info {
+  background-color: #5b7290 !important; }
+
+.alert {
+  border-radius: 0 !important;
+  padding: 0.8em; }
+
+.btn-fa {
+  cursor: pointer; }
+
+.close {
+  cursor: pointer; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
+.cursor-help {
+  cursor: help; }
+
+.modal-content {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important; }
+
+.fa-disabled {
+  opacity: 0.5;
+  cursor: not-allowed; }
+
+.badge-notification {
+  vertical-align: top;
+  margin-left: -1.5em;
+  font-size: 50%; }
+
+.jumbotron {
+  background-color: #160b36;
+  color: #fff; }
+
+.category-header h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600; }
+
+table {
+  color: white !important; }
+
+.modal-content {
+  border: 4px solid #13224b !important;
+  border-radius: 20px !important;
+  max-width: 1000px;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: #0e0b29; }
+
+a {
+  color: #29dfff;
+  transition: color 0.15s; }
+
+a:hover {
+  color: #3665c9; }
+
+.btn-outline-secondary {
+  border-radius: 5px;
+  border: 2px solid #29dfff;
+  color: white; }
+
+.btn-outline-secondary:hover {
+  background: transparent;
+  border: 2px solid #6d2d8a;
+  color: white; }
+
+.btn-outline-secondary:active {
+  background: #6d2d8a !important;
+  border: 2px solid #6d2d8a !important;
+  color: white; }
+
+.close span {
+  text-shadow: #13224b;
+  color: #29dfff; }
+
+.form-control {
+  position: relative;
+  display: block;
+  padding: 0.8em !important;
+  border-radius: 5px;
+  background: #f0f0f0;
+  font-weight: 400;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-appearance: none;
+  /* Behavior changed in Bootstrap v4.1.3. See https://github.com/twbs/bootstrap/issues/27629 */
+  height: auto !important; }
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: #29dfff;
+  box-shadow: 0 0 0 0.1rem #29dfff;
+  color: #999;
+  transition: background-color 0.3s, border-color 0.3s; }
+
+select.form-control {
+  height: auto !important; }
