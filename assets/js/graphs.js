@@ -9,7 +9,8 @@ const graph_configs = {
       let option = {
         title: {
           left: "center",
-          text: "Score over Time"
+          text: "Score over Time",
+		  textStyle: {color:"#fff"}
         },
         tooltip: {
           trigger: "axis",
@@ -22,6 +23,7 @@ const graph_configs = {
           orient: "horizontal",
           align: "left",
           bottom: 0,
+		  textStyle: {color:"#fff"},
           data: [name]
         },
         toolbox: {
@@ -36,12 +38,22 @@ const graph_configs = {
           {
             type: "category",
             boundaryGap: false,
-            data: []
+            data: [],
+			axisLabel: {
+              textStyle: {
+                color: '#fff'
+              }
+            }
           }
         ],
         yAxis: [
           {
-            type: "value"
+            type: "value",
+			axisLabel: {
+              textStyle: {
+                color: '#fff'
+              }
+            }
           }
         ],
         dataZoom: [
@@ -112,7 +124,8 @@ const graph_configs = {
       let option = {
         title: {
           left: "center",
-          text: "Category Breakdown"
+          text: "Category Breakdown",
+		  textStyle: {color:"#fff"}
         },
         tooltip: {
           trigger: "item"
@@ -128,6 +141,7 @@ const graph_configs = {
           orient: "vertical",
           top: "middle",
           right: 0,
+		  textStyle: {color:"#fff"},
           data: []
         },
         series: [
@@ -219,7 +233,8 @@ const graph_configs = {
       let option = {
         title: {
           left: "center",
-          text: "Solve Percentages"
+          text: "Solve Percentages",
+		  textStyle:{color:"#fff"}
         },
         tooltip: {
           trigger: "item"
@@ -234,6 +249,7 @@ const graph_configs = {
           orient: "vertical",
           top: "middle",
           right: 0,
+		  textStyle:{color:"#fff"},
           data: ["Fails", "Solves"]
         },
         series: [

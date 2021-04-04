@@ -47,7 +47,10 @@ const buildGraphData = () => {
     const option = {
       title: {
         left: "center",
-        text: "Top 10 " + (CTFd.config.userMode === "teams" ? "Teams" : "Users")
+        text: "Top 10 " + (CTFd.config.userMode === "teams" ? "Teams" : "Users"),
+		textStyle: {
+        color: "#fff"
+        }
       },
       tooltip: {
         trigger: "axis",
@@ -60,6 +63,9 @@ const buildGraphData = () => {
         orient: "horizontal",
         align: "left",
         bottom: 35,
+		textStyle: {
+        color: "#fff"
+        },
         data: []
       },
       toolbox: {
@@ -77,12 +83,22 @@ const buildGraphData = () => {
         {
           type: "time",
           boundaryGap: false,
-          data: []
+          data: [],
+          axisLabel: {
+            textStyle: {
+                color: '#fff'
+            }
+          }
         }
       ],
       yAxis: [
         {
-          type: "value"
+          type: "value",
+          axisLabel: {
+            textStyle: {
+                color: '#fff'
+            }
+          }
         }
       ],
       dataZoom: [
