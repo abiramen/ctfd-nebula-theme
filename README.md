@@ -4,8 +4,5 @@ This is a CTFd theme I bodged together for CompClub CTF 2021. Feel free to use i
 
 ![sample screenshot](sample-screenshot.jpg)
 
-## Known issues
-- Graph text (for scoreboard) has poor contrast with background. 
-
 ## Usage
 Clone the repo into `CTFd-path/CTFd/themes`. Access the CTFd Admin Panel and select the new theme.
